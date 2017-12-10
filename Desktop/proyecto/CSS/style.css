@@ -1,0 +1,190 @@
+html {
+  box-sizing: border-box;
+}
+
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:before, .clearfix:after { 
+    content: ""; 
+    display: table; 
+}
+.clearfix:after { 
+    clear: both; 
+}
+.clearfix { 
+    *zoom: 1; 
+}
+
+
+body {
+    
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    // background: olive;
+}
+
+
+/* UTIL */
+
+.col-1 { 
+    width: 10%;
+}
+.col-2 { 
+    width: 20%;
+}
+.col-3 { 
+    width: 30%;
+}
+.col-4 { 
+    width: 40%;
+}
+.col-5 { 
+    width: 50%;
+}
+.col-6 { 
+    width: 60%;
+}
+.col-7 { 
+    width: 70%;
+}
+.col-8 { 
+    width: 80%;
+}
+.col-9 { 
+    width: 90%;
+}
+.col-10 { 
+    width: 100%;
+}
+
+[class*='col-'] {
+    float: left;
+}
+
+.btn {
+    // padding: 15px;
+    padding: 10px 16px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+
+.btn-secondary {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+
+/* HEADER */
+
+header {
+    
+    background: url(../images/campo2.jpg) repeat center center;
+    background-size: cover;
+    // padding: 30px 0px 60px;
+    padding: 30px 0 60px;
+    border-bottom: 2px solid #222;
+}
+
+// #logo {
+// }
+
+header img#logo {
+    max-width: 150px;
+}
+
+header .headline {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .headline h2 {
+    color: #fff;
+    // font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+header .headline .text-promo {
+    color: #FFF;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #777;
+    padding: 10px 15px;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+/* SECTION PEOPLE */
+
+section.people {
+    text-align: center;
+}
+
+section.people img{
+    max-width: 400px;
+
+}
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
